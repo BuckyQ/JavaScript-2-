@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+.moving-bar {
+      padding: 15px;
+  }
+
+#progressContainer {
+    /*
+    margin: 30px 80px;
+    height: 40px;
+    background-color: #ccc;
+    position: relative;
+    border-radius: 7px;
+    */
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #cccc;
+}
+
+#progress-bar {  
+    width: 1%;
+    height: 30px;
+    background-color: green;
+}
+/*
+.pause {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.pause:hover {
+    background-color: red;
+}
+*/
+
+.search-bar {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+
+.game {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;    
+}
+
+.grid {
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+}
+
+#score {
+    margin-left: 200px;
+}
+
+.mole {
+    background: blue;
+}
